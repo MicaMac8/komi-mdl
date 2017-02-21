@@ -1,0 +1,12 @@
+@import '../../public/stylesheets/settings/colors';
+
+.home-content-item-container {
+  display: flex;
+  justify-content: space-around;;
+  align-items: center;
+  padding: 2rem;
+  width: 400px;
+  > p {
+    width: 80%;
+  }
+}

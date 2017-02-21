@@ -1,7 +1,11 @@
 @import '../../public/stylesheets/settings/colors';
 
 .page-container {
+  background-color: $background-color-light;
   display: flex;
-  height: 100vh;
-
+  flex-direction: column;
+  min-height: 100%;
+  // > div {
+  //   flex: 1;
+  // }
 }

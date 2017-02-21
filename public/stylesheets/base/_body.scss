@@ -4,4 +4,10 @@
 
 p, a, li {
   font-family: $font-body;
+  font-size: $base-font-size;
+  margin: 0;
+}
+
+html, body, #root, .app {
+  height: 100%;
 }

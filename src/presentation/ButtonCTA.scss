@@ -1,0 +1,44 @@
+@import '../../public/stylesheets/settings/colors';
+@import '../../public/stylesheets/base/headings';
+
+.btn-cta-container {
+  //background-color: pink;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-cta {
+  align-items: center;
+  background-color: $primary;
+  border-radius: 15px;
+  color: $text-color-light;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  margin: 2rem;
+  width: 500px;
+}
+
+.btn-content {
+  align-items: center;
+  color: $text-color-light;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
+  width: 100%;
+}
+
+.btn-text {
+  font-size: $heading-size-5;
+  padding-bottom: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+
+@media (min-width: 640px) {
+  .btn-text {
+    font-size: $heading-size-4;
+  }
+}
