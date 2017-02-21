@@ -1,0 +1,51 @@
+@import '../../public/stylesheets/settings/colors';
+@import '../../public/stylesheets/base/headings';
+
+.header-container {
+  background-image: url('../../public/images/vegetables-min.jpg');
+  background-position: center;
+  background-size: cover;
+  min-height: 200px;
+}
+
+.header-wrapper {
+  background-color: $background-filter;
+  min-height: 200px;
+  padding: 12px 12px 30%;
+  position: relative;
+
+}
+
+.header-title {
+  color: $text-color-light;
+  text-shadow: 0 0 3px $text-color-light-shadow;
+}
+
+.header-description {
+  bottom: 1rem;
+  color: $text-color-light;
+  font-weight: normal;
+  left: 2rem;
+  margin: 0;
+  position: absolute;
+  right: 2rem;
+  text-align: center;
+  text-shadow: 0 0 2px $text-color-light-shadow;
+}
+
+
+@media (min-width: 1200px) {
+  .header-container {
+    max-height: 480px;
+  }
+
+  .header-wrapper {
+    height: 480px;
+    padding: 12px;
+  }
+
+  .header-description {
+    font-size: $heading-size-3;
+  }
+
+}
