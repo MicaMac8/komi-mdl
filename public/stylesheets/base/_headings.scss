@@ -1,0 +1,37 @@
+
+@import '../settings/global';
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-title;
+}
+
+$heading-size-1:        52px !default;
+$heading-size-2:        42px !default;
+$heading-size-3:        28px !default;
+$heading-size-4:        22px !default;
+$heading-size-5:        16px !default;
+$heading-size-6:        16px !default;
+
+h1 {
+  font-size: $heading-size-1;
+}
+
+h2 {
+  font-size: $heading-size-2;
+}
+
+h3 {
+  font-size: $heading-size-3;
+}
+
+h4 {
+  font-size: $heading-size-4;
+}
+
+h5 {
+  font-size: $heading-size-5;
+}
+
+h6 {
+  font-size: $heading-size-6;
+}
