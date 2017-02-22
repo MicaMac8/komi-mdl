@@ -3,7 +3,7 @@
 .page-container {
   background-color: $background-color-light;
   flex: 1;
-  //display: flex;
+  display: flex;
   min-height: 100%;
-  //flex-direction: column;
+  flex-direction: column;
 }
