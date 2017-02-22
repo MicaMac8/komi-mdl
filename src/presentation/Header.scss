@@ -13,12 +13,14 @@
   min-height: 200px;
   padding: 12px 12px 30%;
   position: relative;
-
+  display: flex;
+  justify-content: space-between;
 }
 
 .header-title {
   color: $text-color-light;
   text-shadow: 0 0 3px $text-color-light-shadow;
+  width: 40%;
 }
 
 .header-description {
