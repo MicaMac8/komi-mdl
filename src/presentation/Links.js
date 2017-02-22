@@ -5,7 +5,7 @@ import './Links.css'
 export default (props) => (
   <nav className='links-container'>
 
-    <a href='#' className='link-item'>
+    <a href='/recettes' className='link-item'>
       <span className='link-text'>
         Mes Recettes
       </span>
@@ -14,7 +14,7 @@ export default (props) => (
       </span>
     </a>
 
-    <a href='#' className='link-item'>
+    <a href='/liste' className='link-item'>
       <span className='link-text'>
         Ma liste
       </span>
@@ -25,7 +25,7 @@ export default (props) => (
 
     <a href='#' className='link-item'>Login</a>
 
-    <a href='#' className='link-icon--github link-item'>
+    <a href='https://github.com/MicaMac8/komi-mdl' className='link-icon--github link-item' target='_blank'>
       <i className='fa fa-github' aria-hidden='true' />
     </a>
   </nav>

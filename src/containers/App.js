@@ -1,13 +1,10 @@
 import React, { Component } from 'react'
-
-import HomePage from './HomePage'
+import Rooter from './Rooter'
 
 export default class App extends Component {
   render () {
     return (
-      <div className='app'>
-        <HomePage />
-      </div>
+      <Rooter />
     )
   }
 }
