@@ -5,11 +5,12 @@
   background-image: url('../../public/images/vegetables-min.jpg');
   background-position: center;
   background-size: cover;
+  //border-top: 9px solid $primary;
 }
 
 .header-wrapper {
   background-color: $background-filter;
-  padding-bottom: 35%;
+  padding-bottom: 45%;
   padding-right: 12px;
   padding-left: 12px;
   position: relative;
@@ -41,13 +42,13 @@
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 640px) {
   .header-container {
-    max-height: 480px;
+    max-height: 382px;
   }
 
   .header-wrapper {
-    height: 480px;
+    height: 382px;
     padding-bottom: 0;
   }
 

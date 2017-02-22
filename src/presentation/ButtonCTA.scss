@@ -5,7 +5,7 @@
   background-color: $background-color-light;
   display: flex;
   justify-content: center;
-  min-height: 10rem;
+  min-height: 12rem;
 }
 
 .btn-cta {
@@ -50,5 +50,19 @@
 @media (min-width: 640px) {
   .btn-text {
     font-size: $heading-size-4;
+  }
+
+  .btn-cta {
+    margin: 4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn-text {
+    font-size: $heading-size-4;
+  }
+
+  .btn-cta {
+    margin: 8rem;
   }
 }
