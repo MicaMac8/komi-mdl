@@ -2,9 +2,10 @@
 @import '../../public/stylesheets/base/headings';
 
 .btn-cta-container {
-  //background-color: pink;
+  background-color: $background-color-light;
   display: flex;
   justify-content: center;
+  min-height: 10rem;
 }
 
 .btn-cta {
