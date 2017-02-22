@@ -16,6 +16,12 @@
 
 }
 
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
 .header-title {
   color: $text-color-light;
   text-shadow: 0 0 3px $text-color-light-shadow;
@@ -42,7 +48,7 @@
 
   .header-wrapper {
     height: 480px;
-    padding: 12px;
+    padding-bottom: 0;
   }
 
   .header-description {
