@@ -1,0 +1,19 @@
+
+@import '../settings/global';
+
+
+p, a, li {
+  font-family: $font-body;
+  font-size: $base-font-size;
+  margin: 0;
+}
+
+// html, body, #root, main, .app {
+//   display: flex;
+//   min-height: 100vh;
+//   flex-direction: column;
+// }
+
+a {
+  text-decoration: none;
+}
